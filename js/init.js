@@ -19,6 +19,7 @@ function writeDB(){
     firstname : document.getElementById("firstname").value,
     name : document.getElementById("name").value,
     mail : document.getElementById("email").value,
+    phone : document.getElementById("phone").value,
     company : document.getElementById("company").value,
     message : document.getElementById("message").value,
     date : (new Date()).toJSON(),
